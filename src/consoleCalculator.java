@@ -62,8 +62,8 @@ public class consoleCalculator {
         System.out.println("Example: 5+6 or V+X ");
         System.out.println("Note: Numbers must be in range of 0-10");
 
-        expr = input.next();
-        //expr = expr.replaceAll("\\s","");
+        expr = input.nextLine();
+        expr = expr.replaceAll("\\s","");
         return expr;
     }
 
